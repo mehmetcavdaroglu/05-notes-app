@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100vh;
+    background: rgb(217, 155, 227);
+    background: -moz-linear-gradient(135deg, rgba(217, 155, 227, 1) 0%, rgba(189, 206, 255, 1) 100%);
+    background: -webkit-linear-gradient(135deg, rgba(217, 155, 227, 1) 0%, rgba(189, 206, 255, 1) 100%);
+    background: linear-gradient(135deg, rgba(217, 155, 227, 1) 0%, rgba(189, 206, 255, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d99be3", endColorstr="#bdceff", GradientType=1);
+}
+
+body {
+    color: #ffffff;
+}
+
+.container {
+    width: 80%;
+    min-width: 320px;
+    margin: 50px auto;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+h1 img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #ffffff;
+    background: rgb(220,63,246);
+    background: -moz-linear-gradient(180deg, rgba(220,63,246,1) 0%, rgba(123,31,191,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(220,63,246,1) 0%, rgba(123,31,191,1) 100%);
+    background: linear-gradient(180deg, rgba(220,63,246,1) 0%, rgba(123,31,191,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dc3ff6",endColorstr="#7b1fbf",GradientType=1);
+    cursor: pointer;
+}
+
+button img {
+    width: 30px;
+    margin-right: 10px;
+    filter: invert();
+}
+
+.note{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    padding: 20px;
+    margin: 20px 0;
+    background: #ffffff;
+    border-radius: 5px;
+    color: #333333;
+}
+
+.note .input-box{
+    min-height: 150px;
+    color: #333333;
+    outline: none;
+}
+
+.note img{
+    width: 30px;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    cursor: pointer;
+}
